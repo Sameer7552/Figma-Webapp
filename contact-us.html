@@ -24,15 +24,15 @@
                 <div class="col-1 col-xl-3 none0 none-2"><img src="./Images/Header/Logo.png" alt=""></div>
                 <div class="col-10 col-xl-6 none-2">
                     <div class="row text-center">
-                        <div class="col txt">Home</div>
-                        <div class="col txt">Services</div>
-                        <div class="col txt active">Contact Us</div>
+                        <div class="col txt" onclick="home()">Home</div>
+                        <div class="col txt" onclick="services()">Services</div>
+                        <div class="col txt active" onclick="Contact()">Contact Us</div>
                         <div class="col txt">Help</div>
                         <div class="col txt">Blogs</div>
                     </div>
                 </div>
                 <div class="col-xl-3 none-1">
-                    <button type="button" class="mybtn2 btn btn">Sign Up</button>
+                    <button type="button" class="mybtn2 btn btn" onclick="openTab">Sign Up</button>
                     <button type="button" class="mybtn1 btn btn">Log In</button>
                 </div>
                 <div class="col-1 none myicon">
@@ -107,9 +107,62 @@
             </div>
         </div>
 
-
+        <footer>
+            <div class="row align-items-flex-start justify-content-center">
+                <div class="col-12 col-xl-3">
+                  <img src="./Images/Header/Frame 2.png" alt="">
+                  <div style="margin-top: 20px;">
+                    Copyright © 2022 BRIX Templates <br class="none-1">| All Rights Reserved 
+                  </div><br>
+                </div>
+                <div class="col-12 col-sm-6 col-xl-2">
+                    <div style="font-size: 20px; margin-bottom: 30px; " ><b>Product</b></div>
+                    <div class="text-footer">Features</div>
+                    <div class="text-footer">Pricing</div>
+                    <div class="text-footer">Case studies</div>
+                    <div class="text-footer">Reviews</div>
+                    <div class="text-footer">Updates</div><br>
+                </div>
+                <div class="col-12 col-sm-6 col-xl-2">
+                    <div style="font-size: 20px; margin-bottom: 30px; " ><b>Company</b></div>
+                    <div class="text-footer">About</div>
+                    <div class="text-footer">Contact Us</div>
+                    <div class="text-footer">Careers</div>
+                    <div class="text-footer">Culture</div>
+                    <div class="text-footer">Blog</div><br>
+                </div>
+                <div class="col-12 col-sm-6 col-xl-2">
+                    <div style="font-size: 20px; margin-bottom: 30px; " ><b>Getting started</b></div>
+                    <div class="text-footer">Help center</div>
+                    <div class="text-footer">Pricing</div>
+                    <div class="text-footer">Server status</div>
+                    <div class="text-footer">Report a bug</div>
+                    <div class="text-footer">Chat support</div><br>
+                </div>
+                <div class="col-12 col-sm-6 col-xl-2">
+                    <div style="font-size: 20px; margin-bottom: 30px; " ><b>Follow Us</b></div>
+                    <div class="text-footer"><i class="fa-brands fa-facebook fa-lg"></i>&emsp;Facebook</div>
+                    <div class="text-footer"><i class="fa-brands fa-x-twitter fa-lg"></i>&emsp;Twitter</div>
+                    <div class="text-footer"><i class="fa-brands fa-instagram fa-lg"></i>&emsp;Instagram</div>
+                    <div class="text-footer"><i class="fa-brands fa-linkedin fa-lg"></i>&emsp;LinkedIn</div>
+                    <div class="text-footer"><i class="fa-brands fa-youtube fa-lg"></i>&emsp;YouTube</div><br>
+                </div>
+              </div>
+        </footer>
 
     </div>
+
+<script>
+function home() {
+  window.open("index.html");
+}
+function services() {
+  window.open("services.html");
+}
+function Contact() {
+  window.open("contact-us.html");
+}
+</script>
 </body>
 
 </html>

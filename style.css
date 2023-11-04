@@ -4,6 +4,12 @@ font-family: 'Lato', sans-serif;
 font-family: 'Lexend Tera', sans-serif;
 background-color: #e2e2e2 !important;
 }
+a{
+    text-decoration: none !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    display: inline !important;
+}
 .none , .none0{
     display: none;
 }
@@ -29,6 +35,7 @@ background-color: #e2e2e2 !important;
     font-family: 'Lexend Tera', sans-serif;
     font-size: 12px;
     font-weight: 900;
+    cursor: pointer;
 }
 .active{
     color: #007E85;
@@ -64,6 +71,12 @@ h5{
     font-family: 'DM Sans', sans-serif;
     font-size: 21.33px;
     font-weight: 400;
+    color: #282938;
+}
+.int-txt-2{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
     color: #282938;
 }
 ::-webkit-input-placeholder {
@@ -123,6 +136,45 @@ input[type=radio] {
     border: 0px;
     padding: 10px;
     margin-right: 20px;
+  }
+  footer{
+    font-family: 'DM Sans', sans-serif;
+    background-color: #007E85;
+    color: white;
+    margin-top: 100px;
+    padding: 50px 20px 100px 20px;
+  }
+  .text-footer{
+    line-height: 40px;
+  }
+  .Background{
+    position: relative;
+  }
+  .back-text{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 80%;
+  }
+  .mybtn5{
+    background-color: #007E85;
+    color: white;
+    border: 0px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    height: 50px;
+    width: 200px;
+  }
+  .mybtn6{
+    background-color:transparent;
+    color: white;
+    border: solid 2px #007E85;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    height: 50px;
+    width: 200px;
   }
 @media only screen and (max-width: 1200px) {
     .none-1{

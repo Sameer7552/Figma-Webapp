@@ -156,7 +156,7 @@ input[type=radio] {
     left: 10%;
     width: 80%;
   }
-  .mybtn5,.mybtn7{
+  .mybtn5,.mybtn7,.mybtn10{
     background-color: #007E85;
     color: white;
     border: 0px;
@@ -175,7 +175,10 @@ input[type=radio] {
     font-size: 16px;
     font-weight: 500;
     height: 50px;
-    width: 200px;
+    width: 160px;
+  }
+  .mybtn10{
+    width: 160px;
   }
   .mybtn6{
     background-color:transparent;
@@ -241,6 +244,25 @@ input[type=radio] {
     padding: 15px 10px 15px 10px;
     border-radius: 5px;
     border: solid 1px #007E85;
+  }
+  .mycard-title{
+    font-family: 'DM Sans', sans-serif;
+    color: #007E85 !important;
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    line-height: 34px !important;
+  }
+  .mycard-txt{
+    font-family: 'DM Sans', sans-serif;
+    color: #555555 !important;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    line-height: 30px !important;
+  }
+  .learn-m{
+    color: #007E85;
+    font-weight: 700;
+    font-size: 16px;
   }
 @media only screen and (max-width: 1200px) {
     .none-1{
